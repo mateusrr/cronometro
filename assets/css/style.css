@@ -49,3 +49,19 @@ button {
 .pause {
   color: red;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display:grid;
+    max-width: fit-content;
+  }
+}
+
+@media (max-width: 374px) {
+  .relogio {
+    font-size: 4rem;
+  }
+  button {
+    font-size: 15px;
+  }
+}
